@@ -33,6 +33,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
+    z-index: 9;
   }
 
   .text {
@@ -60,67 +61,58 @@
     }
   }
 
-  .animate10 {
+  .animate10,
+  .animate9,
+  .animate8,
+  .animate7,
+  .animate6,
+  .animate5,
+  .animate4,
+  .animate3,
+  .animate2,
+  .animate1 {
     animation-name: countDown;
     animation-duration: 1s;
   }
 
   .animate9 {
-    animation-name: countDown;
-    animation-duration: 1s;
     animation-delay: 1s;
   }
 
   .animate8 {
-    animation-name: countDown;
-    animation-duration: 1s;
     animation-delay: 2s;
   }
 
   .animate7 {
-    animation-name: countDown;
-    animation-duration: 1s;
     animation-delay: 3s;
   }
 
   .animate6 {
-    animation-name: countDown;
-    animation-duration: 1s;
     animation-delay: 4s;
   }
 
   .animate5 {
-    animation-name: countDown;
-    animation-duration: 1s;
     animation-delay: 5s;
   }
 
   .animate4 {
-    animation-name: countDown;
-    animation-duration: 1s;
     animation-delay: 6s;
   }
 
   .animate3 {
-    animation-name: countDown;
-    animation-duration: 1s;
     animation-delay: 7s;
   }
 
   .animate2 {
-    animation-name: countDown;
-    animation-duration: 1s;
     animation-delay: 8s;
   }
 
   .animate1 {
-    animation-name: countDown;
-    animation-duration: 1s;
     animation-delay: 9s;
   }
 
   .animate0 {
     animation-name: fireworks;
+    animation-delay: 10s;
     animation-duration: 10s;
-    animation-delay: 10s
   }
